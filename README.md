@@ -1,18 +1,15 @@
-# CirnOS
-- If you want my dotfiles offered separately, they're here: https://github.com/end-4/dots-hyprland
-- It's impure but it works
-- I am very uncertain about this NixOS config due to my lack of experience. I hopped to CachyOS and this likely won't be updated
-
+# Basel
+- This is a fork of end-4's hyprland flake for my own use
+- I'm not experienced in nixOS but it'll be my daily driver for the foreseeable future
+- 
 # Installation
+## **CHANGE THE HARDWARE CONFIG**
+- This flake includes settings unique to my system and unless you're on my computer you must change them before installing
+- 
 ## Installing the whole system
-- Please be advised that this flake includes my hardware configuration
-  - I mount my Windows partition with a specific UUID to /mnt/Windows
-- So this configuration likely won't work on your device... idk
+- This is more of a "just for me" thing but i'll add a guide here in case I get amnesia
+- 
 ```bash
-git clone https://github.com/end-4/CirnOS.git && cd CirnOS
+git clone https://github.com/Imerere/Basel.git && cd Basel
 IMPURITY_PATH=$(pwd) sudo --preserve-env=IMPURITY_PATH nixos-rebuild switch --flake . --impure
 ```
-
-## Installing only home manager stuff
-- Unfortunately I'm not knowledgeable enough to offer that (yet?). Just copy the homes folder and import it or something?
-

@@ -118,8 +118,8 @@
   };
 
   # ZRAM
-  zramSwap.enable = true;
-  zramSwap.memoryPercent = 100;
+  # zramSwap.enable = true;
+  # zramSwap.memoryPercent = 100;
 
   # logind
   services.logind.extraConfig = ''
@@ -139,7 +139,7 @@
 
   # network
   networking = {
-    hostName = "CirnOS";
+    hostName = "Basel";
     networkmanager.enable = true;
   };
 

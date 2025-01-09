@@ -105,6 +105,9 @@
   environment = {
     localBinInPath = true;
     systemPackages = with pkgs; [
+      mesa
+      flatpak
+      mpvpaper
       curl
       zsh
       fish

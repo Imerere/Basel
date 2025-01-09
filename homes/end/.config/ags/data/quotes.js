@@ -1,10 +1,10 @@
 export const quotes = [
     {
-        quote: 'Nvidia, fuck you',
+        quote: 'Nvidia, **** you',
         author: 'Linus Torvalds',
     },
     {
-        quote: 'reproducible system? cock and vagina?',
+        quote: 'This quote was censored, sorry about that',
         author: 'vaxry',
     },
     {

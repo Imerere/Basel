@@ -9,10 +9,7 @@
       # gui
       blueberry
       (mpv.override { scripts = [ mpvScripts.mpris ]; })
-      mesa
-      flatpak
       mpvpaper
-      vesktop
       d-spy
       dolphin
       figma-linux

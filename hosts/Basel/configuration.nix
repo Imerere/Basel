@@ -34,6 +34,7 @@
 
   services = {
     envfs.enable = true;
+    flatpak.enable = true;
     greetd = {
       enable = true;
       settings = {
